@@ -1,0 +1,62 @@
+@font-face {
+    font-family: outfit-normal;
+    src: url(assets/Outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit-bold;
+    src: url(assets/Outfit/static/Outfit-Bold.ttf);
+}
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.container {
+    width: 273px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+
+}
+
+#qr_code_image {
+    width: 273px;
+    height: auto;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+
+}
+
+#title {
+    font-family: outfit-bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: hsl(218, 44%, 22%);
+}
+
+#detail {
+    font-family: outfit-normal;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    padding-top: 10px;
+}
