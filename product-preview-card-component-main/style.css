@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+#desktop_image {
+    flex-basis: 50%;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    height: auto;
+
+}
+
+#mobile_image {
+    display: none;
+}
+
+.product_text {
+    flex-basis: 50%;
+    border-radius: 0px 15px 15px 0px;
+    padding: 30px;
+    background-color: white;
+
+}
+
+#category {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+#name {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    padding-bottom: 20px;
+
+}
+
+#about {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+
+.price {
+    padding-bottom: 20px;
+}
+
+.price #main {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    display: inline-block;
+    color: hsl(158, 36%, 37%)
+}
+
+.price #discount {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    display: inline-block;
+    text-decoration: line-through;
+    transform: translate(10px, -5px);
+}
+
+
+.block {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-style: none;
+    width: 100%;
+
+
+}
+
+.block:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+.attribution {
+    margin: auto;
+    margin-top: 20px;
+
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:768px) {
+
+    .container {
+        max-width: 95%;
+        margin-top: 15%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #desktop_image {
+        display: none;
+    }
+
+
+
+    #mobile_image {
+        display: block;
+        flex-basis: 100%;
+        border-radius: 15px 15px 0px 0px;
+
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product_text {
+        flex-basis: 100%;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    #name {
+        font-size: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1060px) {
+    .container {
+        max-width: 90%;
+    }
+}
