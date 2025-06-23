@@ -1,0 +1,124 @@
+@font-face {
+    font-family: WorkSans;
+    src: url(assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: WorkSans;
+    font-size: 16px;
+    color:hsl(292, 42%, 14%);
+}
+
+.container {
+    width: 35vw;
+    max-height: 100%;
+    margin: 100px 0;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px 20px 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+.title {
+    display: flex;
+}
+
+.title img {
+    width: 30px;
+}
+
+.title h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.list {
+    padding-left: 0px;
+    margin: 0 auto;
+}
+
+.list .list-item {
+    list-style-type: none;
+    border-bottom: 1px solid #dedede;
+    padding: 10px;
+}
+
+.list .list-item:last-of-type {
+    border-bottom: none;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question p {
+    max-width: 100%;
+    font-weight: 600;
+}
+
+.question p:hover {
+    color: #ad28eb;
+    cursor:pointer;
+}
+
+.question button {
+    margin-right: 0px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:800px) {
+    body {
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+        font-size: 15px;
+    }
+
+    .container {
+        padding: 20px 20px;
+        width: 90vw;
+    }
+
+    .list .list-item {
+        padding: 10px 0px;
+    }
+
+    .question p {
+        max-width: 70%;
+    }
+
+}
