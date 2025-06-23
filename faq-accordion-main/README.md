@@ -36,7 +36,7 @@ Active state<br>
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/marlar-tz/CSS-Practice-Projects/tree/main/faq-accordion-main)
 - Live Site URL: [FAQ accordion ](https://cheerful-marzipan-c41f98.netlify.app/)
 
 ## My process
