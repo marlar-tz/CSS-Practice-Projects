@@ -11,4 +11,5 @@
 | [**Web Blog Frontend**](https://github.com/marlar-tz/CSS-Practice-Projects/tree/main/Web_Blog_Frontend-main) | <img src="./images/web-blog1.png"> <hr> <img src="./images/web-blog2.png"><hr><img src="./images/web-blog3.png"> |
 | [**FAQ Accordion**](https://github.com/marlar-tz/CSS-Practice-Projects/tree/main/faq-accordion-main) | <img src="./images/faq-accordion.png"> |
 | [**Interactive Rating Component**](https://github.com/marlar-tz/CSS-Practice-Projects/tree/main/interactive-rating-component-main) | <img src="./images/interactive-rating1.jpg"><hr> <img src="./images/interactive-rating2.jpg">  |
+| [**Product Preview Card**](https://github.com/marlar-tz/CSS-Practice-Projects/tree/main/product-preview-card-component-main) | <img src="./images/product-preview.jpg"> |
 
